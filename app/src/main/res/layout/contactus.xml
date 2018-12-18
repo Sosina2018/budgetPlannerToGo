@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+<LinearLayout
+        android:id="@+id/textlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+    <TextView
+        android:id="@+id/contactus_id"
+        android:layout_width="match_parent"
+        android:paddingStart="50dp"
+        android:layout_height="wrap_content"
+
+        android:textIsSelectable="true"
+        android:autoLink="all"
+        android:textColor="@color/Blue"
+        android:text="@string/contactus_text"/>
+</LinearLayout>
+    <LinearLayout
+            android:id="@+id/dialayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           android:layout_marginTop="50dp">
+        <EditText
+                android:id="@+id/telephone_numberID"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textAlignment="center"
+                android:hint="telphone number"
+                android:singleLine="true"
+                android:inputType="phone"/>
+        <Button
+                android:id="@+id/dialButtonID"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:onClick="makePhoneCall"
+                android:text="Dial"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        <Button
+                android:id="@+id/locationButtonID"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="20dp"
+                android:onClick="getLocation"
+                android:text="Our Location"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

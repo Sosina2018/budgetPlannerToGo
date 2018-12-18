@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BudgetPlanner ToGo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="disposable_income">Calculate Disposable Income</string>
+    <string name="Add_Income_expense"> Add Income/Expense</string>
+    <string name="about_view">About</string>
+    <string name="contact_usView">Contact Us</string>
+    <string name="expensens_view">Expenses</string>
+    <string name="about_text">
+        <b>
+            <u>
+                <i>BudgetPlanner ToGo is a nice and simple
+                    APP that help you manage your money well.
+                </i>
+            </u>
+        </b>
+    </string>
+
+    <string name="contactus_text">Better Banking 2020 Inc.\n
+        5555 Main St.(Suite 101)\n
+        Toronto, ON \n
+        M5M 5M5 \n
+        tel.: 416-555-5555 \n
+        email: budget@somewhere.ca \n
+        web: 381 http://www.senecacollege.ca \n
+    </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

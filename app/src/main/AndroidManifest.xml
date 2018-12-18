@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sosina.budgetplannertogo">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/picture_4"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddIncomeExpense"/>
+        <activity android:name=".CalculateDisposableIncome"
+        android:label="@string/disposable_income"/>
+        <activity android:name=".BudgetList"
+                  android:label="Budget List"></activity>
+        <activity android:name=".ContactUs"
+        android:label="@string/contact_usView"/>
+        <activity android:name=".PieChartActivity"
+        android:label="@string/expensens_view"></activity>
+        <activity
+                android:name=".About"
+                android:label="@string/about_view"
+                android:theme="@style/Theme.AppCompat.Dialog"/>
+
+        <provider
+                android:name=".BudgetContentProvider"
+                android:authorities="com.sosina.budgetplannertogo.BudgetContentProvider"/>
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/google_maps_key"/>
+
+        <activity
+                android:name=".MapsActivity"
+                android:label="@string/title_activity_maps">
+        </activity>
+    </application>
+
+</manifest>

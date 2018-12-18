@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+   <LinearLayout
+           android:id="@+id/linearlayout_group"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_weight="1">
+
+       <LinearLayout
+               android:id="@+id/linearlayout_TV"
+               android:layout_width="180dp"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+           <TextView
+                   android:id="@+id/month_TV"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:layout_weight="1"
+                   android:text="Month: "
+                   android:textSize="20dp"/>
+           <TextView
+           android:id="@+id/income_TV"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="bottom|left"
+           android:paddingStart="15dp"
+           android:layout_weight="1"
+           android:text="Income: "
+           android:textSize="20dp"/>
+
+          <TextView
+           android:id="@+id/housing_TV"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="bottom|left"
+           android:paddingStart="15dp"
+           android:layout_weight="1"
+           android:text="Housing:"
+           android:textSize="20dp"/>
+
+           <TextView
+                   android:id="@+id/groceries_TV"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:layout_weight="1"
+                   android:text="Groceries:"
+                   android:textSize="20dp"/>
+
+           <TextView
+                   android:id="@+id/personal_TV"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:layout_weight="1"
+                   android:text="personal:"
+                   android:textSize="20dp"/>
+
+           <TextView
+             android:id="@+id/insurance_TV"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:gravity="bottom|left"
+             android:paddingStart="15dp"
+             android:layout_weight="1"
+             android:text="Insurance:"
+             android:textSize="20dp"/>
+           <TextView
+                   android:id="@+id/transport_TV"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:layout_weight="1"
+                   android:text="Transport:"
+                   android:textSize="20dp"/>
+
+           <TextView
+                   android:id="@+id/children_TV"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:layout_weight="1"
+                   android:text="Children:"
+                   android:textSize="20dp"/>
+
+       </LinearLayout>
+       <LinearLayout
+               android:id="@+id/linearlayout_EDT"
+               android:layout_width="180dp"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+           <EditText
+                   android:id="@+id/month_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp" android:inputType="text"/>
+           <EditText
+                   android:id="@+id/income_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp"
+                   android:inputType="numberDecimal"/>
+
+           <EditText
+                   android:id="@+id/housing_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp"
+                   android:inputType="numberDecimal"/>
+
+           <EditText
+                   android:id="@+id/groceries_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp"
+                   android:inputType="numberDecimal"/>
+
+           <EditText
+                   android:id="@+id/personal_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp"
+                   android:inputType="numberDecimal"/>
+
+           <EditText
+                   android:id="@+id/insurance_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp"
+                   android:inputType="numberDecimal"/>
+           <EditText
+                   android:id="@+id/transport_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp" android:inputType="numberDecimal"/>
+
+           <EditText
+                   android:id="@+id/children_Edt"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="bottom|left"
+                   android:paddingStart="15dp"
+                   android:textSize="20dp" android:inputType="numberDecimal"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+    <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/linearlayout_group"
+            app:layout_constraintBottom_toBottomOf="@id/mainlayout">
+        <LinearLayout
+                android:id="@+id/laylout_buttongroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+        <Button
+                android:id="@+id/addButton"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:onClick="addIncomeExpense"
+                android:text="Add"
+                android:textSize="20dp"/>
+        <Button
+                android:id="@+id/showButton"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:onClick="showIncomeExpense"
+                android:textSize="20dp"
+                android:text="Show"/>
+         <Button
+                 android:id="@+id/clearButton"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:onClick="deletAll"
+                 android:text="Clear"
+                 android:textSize="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
